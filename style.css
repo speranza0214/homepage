@@ -95,6 +95,10 @@ header{
   margin-bottom: 4px;
 }
 
+.hamburger-menu {
+  position: relative;
+  z-index: 1000; /* クリック優先度を上げる */
+}
 
 /* アニメーションの定義 */
 @keyframes color-change {
