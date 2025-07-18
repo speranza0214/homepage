@@ -15,26 +15,28 @@
     <div class="header">
       <img class="logo" src="SRZ_strings_blue.png" alt="speranza">
     </div>
-    <div class="hamburger-menu" onclick="toggleMenu(this)">
-    <div class="hamburger-line"></div>
-    <div class="hamburger-line"></div>
-    <div class="hamburger-line"></div>
-    </div>
+    <div class="menu-wrapper">
+      <div class="hamburger-menu" onclick="toggleMenu(this)">
+      <div class="hamburger-line"></div>
+      <div class="hamburger-line"></div>
+      <div class="hamburger-line"></div>
+  </div>
 
-
-    <ul class="menu">
-      <li><a href="#">メニュー1</a></li>
-      <li><a href="#">メニュー2</a></li>
-      <li><a href="#">メニュー3</a></li>
-      <li><a href="#">メニュー4</a></li>
-    </ul>
-  
+  <ul class="menu">
+    <li><a href="#">メニュー1</a></li>
+    <li><a href="#">メニュー2</a></li>
+    <li><a href="#">メニュー3</a></li>
+    <li><a href="#">メニュー4</a></li>
+  </ul>
+</div>
   
     <script>
       function toggleMenu(element) {
-        element.classList.toggle("active");
+        const wrapper = element.parentElement;
+        wrapper.classList.toggle("active");
       }
     </script>
+    
   </header>
 <div class="p2"> 
   <p2>LiGA SRZ 順位表</p2>
