@@ -121,6 +121,33 @@ header{
   animation-iteration-count: infinite;
 }
 
+nav {
+  background-color: #eee;
+  position: absolute;
+  top: 50px;
+  right: 10px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.hidden {
+  display: none; /* 最初は非表示 */
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 10px 0;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
 table {
   width: 100%;
   margin: 20px;
