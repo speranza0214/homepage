@@ -9,6 +9,22 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
 </head>
+  
+<script>
+// ハンバーガーメニューを取得
+const hamburger = document.querySelector('.hamburger-menu');
+
+// 各線（div）を取得
+const lines = document.querySelectorAll('.hamburger-line');
+
+// クリックイベント
+hamburger.addEventListener('click', () => {
+  lines.forEach(line => {
+    line.classList.toggle('animate-color-change'); // クラスの切り替え
+  });
+});
+</script>
+  
 <body>
   <header>
     <div class="header">
