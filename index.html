@@ -9,42 +9,32 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
 </head>
-  
-<script>
-// ハンバーガーメニューを取得
-const hamburger = document.querySelector('.hamburger-menu');
 
-// 各線（div）を取得
-const lines = document.querySelectorAll('.hamburger-line');
-
-// クリックイベント
-hamburger.addEventListener('click', () => {
-  lines.forEach(line => {
-    line.classList.toggle('animate-color-change'); // クラスの切り替え
-  });
-});
-</script>
-  
 <body>
   <header>
     <div class="header">
       <img class="logo" src="SRZ_strings_blue.png" alt="speranza">
     </div>
-    <div class="hamburger-menu">
+    <div class="hamburger-menu" onclick="toggleMenu(this)">
     <div class="hamburger-line"></div>
     <div class="hamburger-line"></div>
     <div class="hamburger-line"></div>
     </div>
 
-    <nav id="menu" class="hidden">
-    <ul>
-      <li><a href="#home">ホーム</a></li>
-      <li><a href="#about">概要</a></li>
-      <li><a href="#services">サービス</a></li>
-      <li><a href="#contact">お問い合わせ</a></li>
+
+    <ul class="menu">
+      <li><a href="#">メニュー1</a></li>
+      <li><a href="#">メニュー2</a></li>
+      <li><a href="#">メニュー3</a></li>
+      <li><a href="#">メニュー4</a></li>
     </ul>
-      
-  </nav>
+  
+  
+    <script>
+      function toggleMenu(element) {
+        element.classList.toggle("active");
+      }
+    </script>
   </header>
 <div class="p2"> 
   <p2>LiGA SRZ 順位表</p2>
