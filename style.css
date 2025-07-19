@@ -85,6 +85,14 @@ p5 {
   color: gray;
 }
 
+ul{
+  padding-left: 0;
+}
+
+li{
+  list-style: none;
+}
+
 table {
   width: 100%;
   margin: 20px;
