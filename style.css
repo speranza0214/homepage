@@ -55,12 +55,6 @@ p5 {
 }
 
 /*ヘッダー*/
-header{
-  background-color: #305089;
-  padding: 0;
-  width: 100%;
-  height: 65px;
-}
 
 .header{
   background-color: #305089;
@@ -81,6 +75,14 @@ header{
   gap: 2.5rem;
   font-size: 1.5rem:
   list-style: none;
+}
+
+.main-nav a {
+  color: white;
+}
+
+.main-nav a:hover {
+  color: gray;
 }
 
 table {
