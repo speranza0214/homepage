@@ -53,6 +53,7 @@ p5 {
   text-align: center;
   padding: 10px;
 }
+
 /*ヘッダー*/
 header{
   background-color: #305089;
@@ -66,7 +67,7 @@ header{
   posion: fixed;
   padding: 0;
   width: 100%;
-  height: 65px;
+  height: 100%;
 }
 
 .header img{
