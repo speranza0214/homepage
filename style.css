@@ -25,6 +25,14 @@ p2 {
   padding: 10px;
 }
 
+.results{
+  background-color: #eaf6fd;
+  color: #305089;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
 p6 {
   font-size: 15px;
   color: #305089;
