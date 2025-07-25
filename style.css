@@ -139,7 +139,7 @@ table tr:nth-child(odd) td {
   margin: 20px;
   border-collapse: collapse;
   padding: 10px;
-  font-size: 10px;
+  font-size: 13px;
 }
 
 .taiko tr:nth-child(odd) td {
@@ -148,6 +148,7 @@ table tr:nth-child(odd) td {
 
 .taiko th {
   background-color: #fff8cf;
+  height: 90%;
   color: black;
 }
 
