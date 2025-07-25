@@ -137,7 +137,7 @@ table tr:nth-child(odd) td {
   margin: 20px;
   border-collapse: collapse;
   padding: 10px;
-  font-size: 18px;
+  font-size: 10px;
 }
 
 .taiko tr:nth-child(odd) td {
