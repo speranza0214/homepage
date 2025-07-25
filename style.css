@@ -23,6 +23,14 @@ p2 {
   font-size: 24px;
   text-align: center;
   padding: 10px;
+}
+
+.totalresult{
+  background-color: #eaf6fd;
+  color: #305089;
+  width: 100%;
+  height: auto;
+  text-align: center;
   justify-content: center;
   align-items: center;
   display: flex;
