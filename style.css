@@ -132,6 +132,22 @@ table tr:nth-child(odd) td {
       background-color: #f5f5f5; /* 偶数行の色分け */
     }
 
+.taiko {
+  width: 90%;
+  margin: 20px;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+.taiko tr:nth-child(odd) td {
+      background-color: #f5f5f5; /* 偶数行の色分け */
+  }
+
+.taiko th {
+  background-color: #fff8cf;
+  color: black;
+}
+
 .diagonal-cell {
   position: relative; /* 相対位置指定 */
     }
