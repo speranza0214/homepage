@@ -40,7 +40,7 @@ p2 {
   background-color: #eaf6fd;
   color: #305089;
   width: 100%;
-  height: auto;
+  height: 100%;
   padding: 10px;
   text-align: center;
 }
@@ -147,7 +147,6 @@ table tr:nth-child(odd) td {
 
 .taiko {
   width: 90%;
-  margin: 20px;
   border-collapse: collapse;
   padding: 10px;
   font-size: 13px;
